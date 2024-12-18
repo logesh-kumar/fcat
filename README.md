@@ -1,4 +1,4 @@
-# filecat 🐱
+# fscat 🐱
 
 A lightning-fast file concatenation tool written in Rust that allows you to combine multiple files with powerful filtering capabilities.
 
@@ -16,21 +16,21 @@ A lightning-fast file concatenation tool written in Rust that allows you to comb
 ## Installation 📦
 
 ```bash
-cargo install filecat
+cargo install fscat
 ```
 
 ## Usage 🛠️
 
 Basic usage:
 ```bash
-filecat /path/to/directory
+fscat /path/to/directory
 ```
 
 ### Options
 
 ```bash
 USAGE:
-    filecat [OPTIONS] <PATH>
+    fscat [OPTIONS] <PATH>
 
 ARGS:
     <PATH>    Directory to scan for files
@@ -53,17 +53,17 @@ OPTIONS:
 
 1. Concatenate all JavaScript files:
 ```bash
-filecat -e js /path/to/project
+fscat -e js /path/to/project
 ```
 
 2. Concatenate JavaScript and TypeScript files, excluding tests:
 ```bash
-filecat -e js,ts -x "**/test/**,**/*.test.*" /path/to/project
+fscat -e js,ts -x "**/test/**,**/*.test.*" /path/to/project
 ```
 
 3. Include files without extensions:
 ```bash
-filecat -e js,ts -n /path/to/project
+fscat -e js,ts -n /path/to/project
 ```
 
 ## Contributing 🤝

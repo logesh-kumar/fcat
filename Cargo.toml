@@ -1,12 +1,12 @@
 [package]
-name = "fcat"
+name = "fscat"
 version = "0.1.0"
 edition = "2021"
 authors = ["Logesh kumar <logeshgcp@gmail.com>"]
 description = "A fast and flexible file concatenation tool with powerful filtering capabilities"
 license = "MIT"
-repository = "https://github.com/logesh-kumar/filecat"
-documentation = "https://docs.rs/filecat"
+repository = "https://github.com/logesh-kumar/fscat"
+documentation = "https://docs.rs/fscat"
 readme = "README.md"
 keywords = ["concat", "files", "concatenate", "utility", "cli"]
 categories = ["command-line-utilities", "filesystem"]
