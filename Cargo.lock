@@ -145,19 +145,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "concatfiles"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "colored",
- "glob",
- "ignore",
- "indicatif",
- "open",
-]
-
-[[package]]
 name = "console"
 version = "0.15.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -200,6 +187,19 @@ name = "encode_unicode"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "34aa73646ffb006b8f5147f3dc182bd4bcb190227ce861fc4a4844bf8e3cb2c0"
+
+[[package]]
+name = "filecat"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "colored",
+ "glob",
+ "ignore",
+ "indicatif",
+ "open",
+]
 
 [[package]]
 name = "glob"

@@ -1,7 +1,15 @@
 [package]
-name = "concatfiles"
+name = "filecat"
 version = "0.1.0"
 edition = "2021"
+authors = ["Logesh kumar <logeshgcp@gmail.com>"]
+description = "A fast and flexible file concatenation tool with powerful filtering capabilities"
+license = "MIT"
+repository = "https://github.com/logesh-kumar/filecat"
+documentation = "https://docs.rs/filecat"
+readme = "README.md"
+keywords = ["concat", "files", "concatenate", "utility", "cli"]
+categories = ["command-line-utilities", "filesystem"]
 
 [dependencies]
 anyhow = "1.0"
